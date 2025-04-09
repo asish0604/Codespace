@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: black;
+        color: aliceblue;
+      }
+      .special-heading {
+        color: rgb(255, 0, 212);
+      }
+      .special-list {
+        color: beige;
+      }
+    </style>
+    <title>Links and Images</title>
+  </head>
+  <body>
+    <h1>Home Page</h1>
+    <h2 class="special-heading">List of websites</h2>
+    <ul class="special-list">
+      <li>
+        <a
+          href="https://www.theodinproject.com/about"
+          class="special-list"
+          target="_blank"
+          rel="noopener"
+          >About The Odin Project</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://www.youtube.com"
+          class="special-list"
+          target="_blank"
+          rel="noopener"
+          >Youtube</a
+        >
+        <p>
+          In this code: target=”_blank”: opens the link in a new tab.
+          rel=”noopener”: prevents the new tab from accessing the original page,
+          ensuring security.
+        </p>
+      </li>
+      <li>
+        <a
+          href="https://www.google.in"
+          class="special-list"
+          target="_blank"
+          rel="noreferrer"
+          >Google</a
+        >
+        <p>
+          The noreferrer attribute provides both privacy and security. It
+          prevents the new page from knowing where the user came from (hiding
+          the referrer) and also includes the behavior of noopener, preventing
+          the new page from accessing the original page.
+        </p>
+      </li>
+      <li>
+        <a
+          href="../index.html"
+          target="_blank"
+          rel="noreferrer"
+          class="special-list"
+        >
+          Index
+        </a>
+      </li>
+    </ul>
+  </body>
+</html>
